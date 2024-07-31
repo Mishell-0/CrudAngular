@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "6796",
+      "cedula": 1727274944,
+      "nombre": "Juan Sanche",
+      "correo": "sanchezlemaj@gmail.com"
+    },
+    {
+      "id": "5747",
+      "cedula": "1734650988",
+      "nombre": "Lorena Guerrero",
+      "correo": "sl.guerrero@itq.edu.ec"
+    },
+    {
+      "id": "9b8a",
+      "cedula": "1754048690",
+      "nombre": "MATIAS EDUARDO ZURITA CHOLANGO",
+      "correo": "mishellchiles546@gmail.com"
+    }
+  ]
+}

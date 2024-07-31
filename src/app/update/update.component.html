@@ -1,0 +1,19 @@
+<form (ngSubmit)="updateItem()" class="container mt-4">
+    <div class="mb-3">
+      <label for="cedula" class="form-label">Cédula:</label>
+      <input id="cedula" [(ngModel)]="item.cedula" name="cedula" class="form-control" required>
+    </div>
+  
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre:</label>
+      <input id="nombre" [(ngModel)]="item.nombre" name="nombre" class="form-control" required>
+    </div>
+  
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo Electrónico:</label>
+      <input id="correo" [(ngModel)]="item.correo" name="correo" class="form-control" type="email" required>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+  </form>
+  
